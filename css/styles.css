@@ -62,7 +62,7 @@ header nav ul li a{
 .seccion-1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 50rem;
@@ -89,10 +89,11 @@ header nav ul li a{
     line-height: 25px;
     margin-top: 28px;
     margin-bottom: 28px;
+    padding: 5% 2% 5% 0%;
 }
 
 .article2{
-    padding: 5% 2% 5% 2%
+    width: 50vw;
 }
 
 .article2 img{
@@ -107,13 +108,12 @@ header nav ul li a{
     align-items: top;
     justify-content: space-evenly;
     width: 100%;
-    height: 40rem; /*responsive section 60rem*/
+    height: 35rem; /*responsive section 60rem*/
 }
 
 .article3{
-    width: 30rem;
-    margin-top: 6.25rem;
-    padding: 2.8125rem;
+    width: 50vw;
+    margin: 0rem 3.8125rem 3.8125rem 3.8125rem;
 }
 
 .article3 h2{
@@ -122,6 +122,7 @@ header nav ul li a{
     font-size: 30px;
     line-height: 130%;
     padding-bottom:2rem;
+    padding-right: 10rem;
     color: #232851;
 }
 
@@ -130,6 +131,7 @@ header nav ul li a{
     font-size: 14px;
     line-height: 150%;
     color: #000000;
+    padding-right: 15rem;
 }
 
 #item-1{
