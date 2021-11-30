@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Be Vietnam', Arial, Helvetica, sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 a{
@@ -23,20 +23,21 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 5%;
 }
 
 header span img{
-    padding: 1%;
+    padding: 0.5rem;
 }
 
 header nav ul{
     display: flex;
-    font-size: 87%;
+    font-size: 0.93rem;
     font-weight: normal;
     color: #242E52;
     list-style-type: none;
     padding-left:0%;
+    padding-bottom: 0.98rem;
 }
 
 header nav ul li{
@@ -47,30 +48,37 @@ header nav ul li{
     border: none;
     background-color: #F3603B;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
+    border-radius: 3.125rem;
     color: #FFFFFF;
-    padding: 15px;
-    width: 120px;
+    padding: 0.875rem;
+    width: 6.875rem;
     font-weight: 600;
 }
 
-section article.article1{
-    position: absolute;
-    width: 320px;
-    height: 525px;
-    left: 100px;
-    top: 218px;
+.seccion-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
 }
 
-section article.article1 h1{
+.article1{
+    width: 21.875rem;
+    height: 21.875rem;
+    margin-left: 3rem;
+}
+
+.article1 h1{
     font-weight: bold;
-    font-size: 38px;
-    line-height: 45px;
+    font-size: 2.375rem;
+    line-height: 2.8125rem;
     color: #232C50;
 }
 
-section article.article1 h2{
-    font-size: 16px;
+.article1 h2{
+    font-size: 1rem;
     font-weight: normal;
     color: #000000;
     line-height: 25px;
@@ -78,56 +86,49 @@ section article.article1 h2{
     margin-bottom: 28px;
 }
 
-section article.article2{
-    position: absolute;
-    top: 180px;
-    right: 166px;
-    left: 500px;
+.article2{
+    padding: 5% 2% 5% 2%
 }
 
-article.article2 img{
-    width: 45vw;
+.article2 img{
+    max-width: 90%;
+    height: auto;
+    resize: both;
 }
 
-section.section2 article.article3{
-    position: absolute;
-    flex-direction: column;
-    width: 433px; 
-    left: 100px;
-    top: 720px;
-}
-
-article.article3 h2{
+.section-2{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40rem;
+}
+
+.article3{
+    width: 30rem;
+    margin-top: 6.25rem;
+    padding: 2.8125rem;
+
+}
+
+.article3 h2{
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 113%;
-    margin-bottom: 36px;
     color: #232851;
 }
 
-article.article3 h3{
-    display: flex;
-    align-items: center;
-    margin-right: 31%;
-    margin-bottom: 36px;
+.article3 h3{
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     color: #000000;
 }
 
-article.article4{
-    display: flex;
-    margin-left: 560px;
-    margin-top: 589px;
-}
-
 #item-1{
     list-style-image: url(/Proyecto_Final_FrontEnd_I/img/Button1.png);
-    padding-top: 15px;
 }
 
 #item-2{
@@ -138,25 +139,25 @@ article.article4{
     list-style-image: url(/Proyecto_Final_FrontEnd_I/img/Button3.png);
 }
 
+ol{
+    margin-top: 120px;
+}
+
 .article4 ol li h3{
-    display: flex;
     padding: 0px 0px 10px 20px;
     font-style: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 40px;
-    align-self: flex-start;
     color: #323851;
 
 }
 
 .article4 ol li p{
-    display: flex;
-    margin-left: 20px;
     width: 330px;
+    padding-left: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    align-items: center;
     color: #B3B2B7;
 }
 
@@ -169,15 +170,19 @@ div h2{
     font-size: 30px;
 }
 
-section.section3{
+.section-3{
     display: flex;
-    margin: 40px 0px 40px 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    margin: 40px 0px 40px 0px;
 }
 
-.section3 article{
+.section-3 article{
+    position: relative;
     flex-direction: column;
     align-items:center;
-    position: relative;
     width: 340px;
     height: 200px;
     text-align: center;
@@ -185,7 +190,7 @@ section.section3{
     background-color: #FAFAFA;
 }
 
-.section3 article img{
+.section-3 article img{
     position: relative;
     width: 70px;
     bottom: 35px;
