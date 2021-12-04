@@ -30,7 +30,7 @@ header span img{
     padding: 0.5rem;
 }
 
-.menu-ham{
+header img.menu-ham{
     display: none;
 }
 
@@ -63,22 +63,22 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: top;
     width: 100%;
-    height: 40%;
+    height: 30%;
     margin-bottom: 10%;
     margin-top: 10%;
 }
 
 .article1{
-    width: 21.875rem;
-    height: 21.875rem;
+    width: 23rem;
+    height: 23rem;
     text-align: left;
 }
 
 .article1 h1{
     font-weight: bold;
-    font-size: 2.375rem;
+    font-size: 2.9rem;
     line-height: 2.8125rem;
     color: #232C50;
 }
@@ -95,6 +95,7 @@ header nav ul li a{
 
 .article2{
     width: 50vw;
+    text-align: right;
 }
 
 .seccion-1 article.article2 img{
@@ -393,7 +394,7 @@ textarea:focus, input:focus {
         display: none;
     }
 
-    .menu-ham{
+    header img.menu-ham{
         display: block;
     }
 
